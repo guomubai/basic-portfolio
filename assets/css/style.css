@@ -1,0 +1,108 @@
+* {
+	margin: auto;
+	
+}
+
+header {
+	display: flex;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	background-color: #ffffff;
+	border: 2px;
+	height: 50px;
+	padding: 20px;
+	align-items: center;
+	position: left;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url("../images/oriental.png");
+}
+
+h1 {
+	color: #ffffff;
+	position: relative;
+	top: -30px;
+	justify-content: center;
+}
+
+div {
+	height: 400px;
+	width: 960px;
+	
+}
+
+
+a {
+	color: #777777;
+}
+
+header .title {
+	background-color:#4aaaa5;
+	text-align: center;
+	height: 100px;
+
+}
+
+.navbar {
+	display: flex;
+	text-align: center;
+	align-content: center;
+	justify-content: flex-end;
+	width: 20%;
+	padding: 30px;
+	color: #777777;
+}
+
+section {
+	display: flex;
+	align-content: center;
+	width: 960px;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	background-color: #ffffff;
+}
+
+footer
+
+{
+	display: flex;
+	align-content: center;
+	text-align: center;
+	background-color: #666666;
+	height: 50px;
+	min-height: 30vh;
+	margin-top: 50px;
+	border-top: #4aaaa5 5px;
+	justify-content: center;
+	
+}
+
+.end {
+	flex:1;
+	border-top: #4aaaa5 5px;
+}
+
+img {
+	height: 100px;
+	width: 200px;
+}
+
+.contact {
+	float: left;
+}
+
+
+div .portfolioGallery img {
+	display: flex;
+	align-content: center;
+}
+
+#endNote {
+	padding-top: 20px;
+}
+
+textarea {
+	display: flex;
+	align-content: center;
+}
